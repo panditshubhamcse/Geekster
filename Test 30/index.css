@@ -1,0 +1,27 @@
+table,
+tr,
+td {
+  border: 1px solid whitesmoke;
+}
+td {
+  padding: 5px;
+}
+table {
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  color: cornsilk;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+#con12 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#search,
+#btn {
+  padding: 10px;
+}
+
