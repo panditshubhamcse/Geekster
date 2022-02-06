@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+.profile-img{
+    border-radius: 20px;
+    margin-right: 200px;
+}
+.canvas{
+    padding: 10px;
+}
+#main{
+    border: 2px solid black;
+    /* height: 600px; */
+    /* display: flex; */
+    width: 60%;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: rgb(233, 231, 232);
+}
+#post{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    height: 40px;
+    padding: 10px;
+}
+#post-add{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+#heading{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+#head{
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#description{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+#desc{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#post-btn{
+    height: 35px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#post-btn:hover{
+    background-color: brown;
+}
+#edit-btn,#delete-btn{
+    width: 45%;
+
+}
